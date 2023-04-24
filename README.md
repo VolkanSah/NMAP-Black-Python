@@ -1,6 +1,6 @@
 # NMAP-Black-Python-Script
 
-Prepare a text file (.txt) with the domains you want to scan, with one domain per line. This file should contain both local and external domains.
+Prepare a text file (domains.txt) with the domains you want to scan, with one domain per line. This file should contain both local and external domains.
 
 Use Python to read the text file and extract the domain names. You can use built-in file handling functions in Python, such as open() and readlines(), to read the text file and store the domain names in a list.
 
