@@ -1,4 +1,4 @@
-# NMAP-Black-Python-Script
+# NMAP-Black-Python
 
 Prepare a text file (domains.txt) with the domains you want to scan, with one domain per line. This file should contain both local and external domains.
 
