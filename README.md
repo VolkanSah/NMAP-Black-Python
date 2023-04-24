@@ -12,7 +12,7 @@ Store the extracted information in a CSV file using Python's CSV module, which a
 
 Once the scanning and parsing process is complete, you can analyze the results in the CSV file to identify vulnerabilities and open ports in networks.
 
-Here's an example:
+ example:
 
 
 
