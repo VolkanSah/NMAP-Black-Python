@@ -10,7 +10,7 @@ Parse the XML output of Nmap using Python's built-in XML parsing libraries, such
 
 Store the extracted information in a CSV file using Python's CSV module, which allows you to write data to a CSV file in a structured format.
 
-Once the scanning and parsing process is complete, you can analyze the results in the CSV file to identify vulnerabilities and open ports in your local network.
+Once the scanning and parsing process is complete, you can analyze the results in the CSV file to identify vulnerabilities and open ports in networks.
 
 Here's an example:
 
