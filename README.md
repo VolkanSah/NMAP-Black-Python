@@ -5,7 +5,7 @@
 NMAP-Black-Python is a Python script designed to automate the process of scanning networks for vulnerabilities and open ports using Nmap. This script reads domain names from a text file, scans them using Nmap, and stores the results in a CSV file for easy analysis.
 
 ## How to Use
-- Prepare a text file (e.g. domainlist.txt) containing the domains you want to scan, with one domain per line. This file should include both local and external domains.
+- Prepare a text file (e.g. domainlist.txt) containing the domains you want to scan, with one domain per line. This file should include both local and external domains, as well as local addresses such as 127.0.0.1:8080 for tor tunneling purposes, if necessary.
 - Use Python to read the text file and extract the domain names. Python's built-in file handling functions, such as open() and readlines(), can be used to read the text file and store the domain names in a list.
 - Iterate through the list of domain names and use the subprocess module in Python to execute Nmap commands with the appropriate options for scanning vulnerabilities and open ports. The -p option can be used to specify the ports to scan, and the -oX option can be used to output the results in XML format.
 - Parse the XML output of Nmap using Python's built-in XML parsing libraries, such as xml.etree.ElementTree, to extract relevant information, such as open ports and vulnerabilities.
