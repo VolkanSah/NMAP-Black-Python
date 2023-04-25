@@ -51,9 +51,6 @@ for domain in domain_list:
         writer.writeheader()
         writer.writerow({'Domain': domain, 'Open Ports': ', '.join(open_ports), 'Vulnerabilities': ', '.join(vulnerabilities)})
 ``` 
-
-Here's the license, credits, disclaimer, and an additional warning to add at the end of the README.md file:
-
 ## License
 This project is licensed under the MIT License. See LICENSE file for more information.
 
