@@ -61,7 +61,7 @@ NMAP-Black-Python was created and is maintained by [Volkan Sah](https://github.c
 ## Disclaimer
 The developer of NMAP-Black-Python is not responsible for any misuse or damage caused by this tool. It is the user's responsibility to ensure that they have the necessary permissions to use this tool on their chosen networks.
 
-## issues
+## Issues
 Issues to this script are not accepted as it is intended for educational purposes only and not for production use.
 
 ## WARNING! AGAIN!
