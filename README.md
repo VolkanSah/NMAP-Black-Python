@@ -1,4 +1,4 @@
-# NMAP-Black-Python (Example)
+# NMAP-Black-Python
 ##### RedTeam Black-Python Scripts by Volkan Sah - simple codings for 'Offensive Security'
 **⚠️ WARNING: This tool is intended for educational and ethical hacking purposes only. Scanning networks without permission can be illegal and may result in criminal charges. Use this tool responsibly and only on networks you have permission to access. ⚠️**
 
