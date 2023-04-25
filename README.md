@@ -1,5 +1,5 @@
 # NMAP-Black-Python
-##### RedTeam Black-Python Scripts by Volkan Sah - simple codings for 'Offensive Security'
+##### RedTeam Black-Python Scripts by Volkan Sah - simple codings for 'Offensive Security' (Update 2023)
 **⚠️ WARNING: This tool is intended for educational and ethical hacking purposes only. Scanning networks without permission can be illegal and may result in criminal charges. Use this tool responsibly and only on networks you have permission to access. ⚠️**
 
 NMAP-Black-Python is a Python script designed to automate the process of scanning networks for vulnerabilities and open ports using Nmap. This script reads domain names from a text file, scans them using Nmap, and stores the results in a CSV file for easy analysis.
