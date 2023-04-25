@@ -57,10 +57,14 @@ Here's the license, credits, disclaimer, and an additional warning to add at the
 ## License
 This project is licensed under the MIT License. See LICENSE file for more information.
 
-Credits
-NMAP-Black-Python was created and is maintained by Your Name or GitHub username.
+## Credits
+NMAP-Black-Python was created and is maintained by [Volkan Sah](https://github.com/volkansah)
 
-Disclaimer
-The developers of NMAP-Black-Python are not responsible for any misuse or damage caused by this tool. It is the user's responsibility to ensure that they have the necessary permissions to use this tool on their chosen networks.
+## Disclaimer
+The developer of NMAP-Black-Python is not responsible for any misuse or damage caused by this tool. It is the user's responsibility to ensure that they have the necessary permissions to use this tool on their chosen networks.
 
-WARNING: Scanning networks without permission can be illegal and may result in criminal charges. Use this tool responsibly and only on networks you have permission to access. By using NMAP-Black-Python, you agree to use it for educational and ethical hacking purposes only.
+## issues
+Issues to this script are not accepted as it is intended for educational purposes only and not for production use.
+
+## WARNING! AGAIN!
+**WARNING: Scanning networks without permission can be illegal and may result in criminal charges. Use this tool responsibly and only on networks you have permission to access. By using NMAP-Black-Python, you agree to use it for educational and ethical hacking purposes only.**
