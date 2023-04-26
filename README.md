@@ -27,6 +27,7 @@ with open('domainlist.txt', 'r') as file:
 # Loop through domain names and perform Nmap scanning
 for domain in domain_list:
     # Run Nmap command and capture output
+    # Set wich ports you want scan for faster results
     cmd = f'nmap -p 1-65535 -oX {domain}.xml {domain}'
     subprocess.run(cmd, shell=True, stdout=subprocess.PIPE)
 
@@ -51,6 +52,9 @@ for domain in domain_list:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerow({'Domain': domain, 'Open Ports': ', '.join(open_ports), 'Vulnerabilities': ', '.join(vulnerabilities)})
+        
+        
+        // get csv output use next script /tool or exucute your own handel with the information 
 ``` 
 ## License
 This project is licensed under the MIT License. See LICENSE file for more information.
