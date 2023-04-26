@@ -61,7 +61,7 @@ for domain in domain_list:
     # you can use .join(open_ports)  or .join(vulnerabilities) handel with your on script with the xml with your own logic
     
     ###############################################
-    # Logic removed! Creat your own!    ###########
+    # Handel removed! Creat your own!    ###########
     ###############################################
     
     # or write extracted information to CSV  (needed if you want use in other tools, cause they need most time .txt or .csv 
