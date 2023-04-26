@@ -45,7 +45,7 @@ for domain in domain_list:
             output = script.get('output')
             vulnerabilities.append(output)
 
-    # Write extracted information to CSV
+    # Write extracted information to CSV cause we need always only .txt or .csv
     with open(f'{domain}.csv', 'w', newline='') as csvfile:
         fieldnames = ['Domain', 'Open Ports', 'Vulnerabilities']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
