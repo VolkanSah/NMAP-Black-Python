@@ -30,7 +30,7 @@ with open('domainlist.txt', 'r') as file:
 # Loop through domain names and perform Nmap scanning
 for domain in domain_list:
     # Run Nmap command and capture output
-    # Set ports you want scan for faster results
+    # Set ports you want scan with nmap for faster results
     cmd = f'nmap -p 1-65535 -oX {domain}.xml {domain}'
     subprocess.run(cmd, shell=True, stdout=subprocess.PIPE)
     
