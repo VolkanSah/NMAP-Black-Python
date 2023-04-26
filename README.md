@@ -18,6 +18,7 @@ NMAP-Black-Python is a Python script designed to automate the process of scannin
 This script is intended for educational and ethical hacking purposes only
 
 ```
+# NPM Black Python (lite)
 import subprocess
 import csv
 import xml.etree.ElementTree as ET
@@ -72,7 +73,8 @@ for domain in domain_list:
         writer.writerow({'Domain': domain, 'Open Ports': ', '.join(open_ports), 'Vulnerabilities': ', '.join(vulnerabilities)})
         
        
-       ## get csv output and use it in your next script /tool or exucute your own handel/mechanizem
+    ## get csv output and use it in your next script /tool or exucute your own handel/mechanizem
+    
 ``` 
 
 ## Issues
