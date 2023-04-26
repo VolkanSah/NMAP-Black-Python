@@ -1,6 +1,6 @@
 # NMAP-Black-Python (Example)
 ##### RedTeam Black-Python Scripts by Volkan Sah - simple codings for 'Offensive Security' (Update 2023)
-###### This is a part of the how-to: Kill the onion!
+###### This is a part of the how-to: Kill the onion! If forked please check for updates https://github.com/VolkanSah/NMAP-Black-Python
 **⚠️ WARNING: This tool is intended for educational and ethical hacking purposes only. Scanning networks without permission can be illegal and may result in criminal charges. Use this tool responsibly and only on networks you have permission to access. ⚠️**
 
 NMAP-Black-Python is a Python script designed to automate the process of scanning networks for vulnerabilities and open ports using Nmap. This script reads domain names from a text file, scans them using Nmap, and stores the results in a CSV file for easy analysis. 
@@ -78,9 +78,10 @@ Issues to this script are not accepted as it is intended for educational purpose
 ## Disclaimer
 The developer of NMAP-Black-Python is not responsible for any misuse or damage caused by this tool. It is the user's responsibility to ensure that they have the necessary permissions to use this tool on their chosen networks.
 
-## Credits
-Copyright: [Volkan Sah](https://github.com/volkansah)
 
 ## License
 This project was created and is maintained by [Volkan Sah](https://github.com/volkansah), it is licensed under the MIT License for securing our world!
+
+## Credits
+Copyright: [Volkan Sah](https://github.com/volkansah)
 
