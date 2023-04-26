@@ -13,7 +13,8 @@ NMAP-Black-Python is a Python script designed to automate the process of scannin
 - Store the extracted information in a CSV file using Python's csv module, which enables writing data to a CSV file in a structured format.
 - Once the scanning and parsing process is complete, analyze the results in the CSV file to identify vulnerabilities and open ports in the networks.
 
-## Example
+## Example code
+This script is intended for educational and ethical hacking purposes only
 
 ```
 import subprocess
@@ -28,15 +29,21 @@ with open('domainlist.txt', 'r') as file:
 # Loop through domain names and perform Nmap scanning
 for domain in domain_list:
     # Run Nmap command and capture output
-    # Set wich ports you want scan for faster results
+    # Set ports you want scan for faster results
     cmd = f'nmap -p 1-65535 -oX {domain}.xml {domain}'
     subprocess.run(cmd, shell=True, stdout=subprocess.PIPE)
-
+    # Removed ########################################################
+    # logic ='removed to prevent abuse please create your own logic!' 
+    # logics tipp: Hydra can handel 64 Proxies/Tunnels at on time and 
+    # Nikto loves to work with MSF+ i mean they cam mary :smile:
+    # Without this logic this script is powerfull enought for research
+    # No quesstion please, you must learn programming logic!
+    ###################################################################
     # Parse XML output
     tree = ET.parse(f'{domain}.xml')
     root = tree.getroot()
 
-    # Extract relevant information from XML
+    # Extract all relevant information from XML
     open_ports = []
     vulnerabilities = []
     for host in root.findall('host'):
@@ -46,8 +53,11 @@ for domain in domain_list:
         for script in host.findall('hostscript/script'):
             output = script.get('output')
             vulnerabilities.append(output)
-
-    # Write extracted information to CSV cause we need always only .txt or .csv
+            
+    # Work finished ! you can handelnow the .xml or u export it to csv below  
+    # you can use .join(open_ports)  or .join(vulnerabilities) handel with your on script with the xml with your own logic
+    # Logic removed! Creat your own! or
+    # write extracted information to CSV  (needed if you want use in other tools, cause they need most time .txt or .csv 
     with open(f'{domain}.csv', 'w', newline='') as csvfile:
         fieldnames = ['Domain', 'Open Ports', 'Vulnerabilities']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
@@ -55,19 +65,22 @@ for domain in domain_list:
         writer.writerow({'Domain': domain, 'Open Ports': ', '.join(open_ports), 'Vulnerabilities': ', '.join(vulnerabilities)})
         
         
-        // get csv output use next script /tool or exucute your own handel with the information 
+       ## get csv output and use it in your next script /tool or exucute your own handel/mechanizem
 ``` 
-## License
-This project is licensed under the MIT License. See LICENSE file for more information.
-
-## Credits
-NMAP-Black-Python was created and is maintained by [Volkan Sah](https://github.com/volkansah)
-
-## Disclaimer
-The developer of NMAP-Black-Python is not responsible for any misuse or damage caused by this tool. It is the user's responsibility to ensure that they have the necessary permissions to use this tool on their chosen networks.
 
 ## Issues
 Issues to this script are not accepted as it is intended for educational purposes only and not for production use.
 
 ## WARNING! AGAIN!
 **⚠️ WARNING: Scanning networks without permission can be illegal and may result in criminal charges. Use this tool responsibly and only on networks you have permission to access. By using NMAP-Black-Python, you agree to use it for educational and ethical hacking purposes only. ⚠️**
+
+
+## Disclaimer
+The developer of NMAP-Black-Python is not responsible for any misuse or damage caused by this tool. It is the user's responsibility to ensure that they have the necessary permissions to use this tool on their chosen networks.
+
+## Credits
+Copyright: [Volkan Sah](https://github.com/volkansah)
+
+## License
+This project was created and is maintained by [Volkan Sah](https://github.com/volkansah), it is licensed under the MIT License for securing our world!
+
