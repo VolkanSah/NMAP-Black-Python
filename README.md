@@ -88,9 +88,11 @@ Issues to this script are not accepted as it is intended for educational purpose
 The developer of NMAP-Black-Python is not responsible for any misuse or damage caused by this tool. It is the user's responsibility to ensure that they have the necessary permissions to use this tool on their chosen networks.
 
 
+## Copyright
+- [VolkanSah on Github](https://github.com/volkansah)
+- [Developer Site](https://volkansah.github.io)
+- [Become a 'Sponsor'](https://github.com/sponsors/volkansah)
 ## License
-This project was created and is maintained by [Volkan Sah](https://github.com/volkansah), it is licensed under the MIT License for securing our world!
+This project is licensed under the MIT - see the [LICENSE](LICENSE) file for details.
 
-## Credits
-Copyright: [Volkan Sah](https://github.com/volkansah)
 
