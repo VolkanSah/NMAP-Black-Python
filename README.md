@@ -1,5 +1,6 @@
 # NMAP-Black-Python (lite)
 ###### If forked please check for updates https://github.com/VolkanSah/NMAP-Black-Python
+![NMAP Black Python by Volkan Sah](nmap-blackpy-min.png)
 
 ##### RedTeam Black-Python Scripts by Volkan Sah - simple codings for 'Offensive Security' (Update 2023)
 **⚠️ WARNING: This tool is intended for educational and ethical hacking purposes only. Scanning networks without permission can be illegal and may result in criminal charges. Use this tool responsibly and only on networks you have permission to access. ⚠️**
