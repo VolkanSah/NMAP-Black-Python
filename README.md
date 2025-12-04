@@ -544,4 +544,4 @@ This project is licensed under the **MIT License** — see [LICENSE](LICENSE) fi
 
 > **Last updated:** 2025/12  
 > **Version:** 2.0  
-Y **Status:** Production-ready
+> **Status:** Production-ready
